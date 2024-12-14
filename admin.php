@@ -9,9 +9,11 @@ session_start();
     <link rel="stylesheet" href="Styles/Admin.css">
     <title>Admin Dashboard</title>
 </head>
+<?php require_once('includes/page_guard.php'); ?>
 <body>
     <!-- Include Sidebar -->
     <?php include("includes/adminsidebar.php"); ?> 
+ 
 
     <!-- Main Content -->
     <div class="main-content">
